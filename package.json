@@ -1,0 +1,22 @@
+{
+  "name": "terminal-simulator-qualidade",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "http-server . -a 127.0.0.1 -p 4173 -c-1",
+    "test:unit": "vitest run tests/unit",
+    "test:integration": "vitest run tests/integration",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test",
+    "test:all": "npm run test:coverage && npm run test:e2e",
+    "metrics:loc": "node scripts/contar-linhas.mjs",
+    "diagnosticar:head": "node scripts/verificar-defeito-head.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@vitest/coverage-v8": "^4.0.0",
+    "http-server": "^14.1.1",
+    "vitest": "^4.0.0"
+  }
+}
