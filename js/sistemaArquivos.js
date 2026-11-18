@@ -1,5 +1,7 @@
 // Simula o sistema de arquivos em árvore
-class SistemaArquivos {
+import { Diretorio } from "./diretorio.js";
+
+export class SistemaArquivos {
   constructor() {
     this.raiz = new Diretorio("/"); // Diretório raiz
     this.atual = this.raiz; // Diretório atual

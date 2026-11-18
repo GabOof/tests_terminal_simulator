@@ -1,5 +1,5 @@
 // Representa um diretório
-class Diretorio {
+export class Diretorio {
   constructor(nome, pai = null) {
     this.nome = nome; // Nome do diretório
     this.pai = pai; // Referência ao diretório pai

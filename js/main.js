@@ -1,3 +1,6 @@
+import { SistemaArquivos } from "./sistemaArquivos.js";
+import { InterpretadorComandos } from "./interpretadorComandos.js";
+
 // Instâncias
 const sistemaArquivos = new SistemaArquivos();
 const interpretador = new InterpretadorComandos(sistemaArquivos);

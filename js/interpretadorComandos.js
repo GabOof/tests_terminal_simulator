@@ -1,4 +1,7 @@
-class InterpretadorComandos {
+import { Diretorio } from "./diretorio.js";
+import { Arquivo } from "./arquivo.js";
+
+export class InterpretadorComandos {
   constructor(sistemaArquivos) {
     this.sistemaArquivos = sistemaArquivos; // Referência ao sistema de arquivos
   }
