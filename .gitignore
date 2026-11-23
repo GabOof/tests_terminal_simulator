@@ -1,0 +1,32 @@
+
+# Dependências
+node_modules/
+
+# Cobertura dos testes
+coverage/
+
+# Resultados do Playwright
+playwright-report/
+test-results/
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+
+# Configurações locais do editor
+.vscode/
+.idea/
