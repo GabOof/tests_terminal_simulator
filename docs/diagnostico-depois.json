@@ -1,0 +1,64 @@
+{
+  "data": "2026-11-23T12:36:01.190Z",
+  "total_casos": 8,
+  "casos_divergentes": 0,
+  "observacao": "Uma divergência é candidata a defeito. Confirme o requisito e a causa antes de contabilizá-la como defeito único.",
+  "resultados": [
+    {
+      "id": "DD-01",
+      "requisito": "Exibir primeiras linhas (head)",
+      "esperado": "a\nb",
+      "obtido": "a\nb",
+      "status": "CONFORME"
+    },
+    {
+      "id": "DD-02",
+      "requisito": "Exibir últimas linhas (tail)",
+      "esperado": "b\nc",
+      "obtido": "b\nc",
+      "status": "CONFORME"
+    },
+    {
+      "id": "DD-03",
+      "requisito": "Contar linhas, palavras e caracteres (wc)",
+      "esperado": "Linhas: 3\nPalavras: 3\nCaracteres: 5",
+      "obtido": "Linhas: 3\nPalavras: 3\nCaracteres: 5",
+      "status": "CONFORME"
+    },
+    {
+      "id": "DD-04",
+      "requisito": "Renomear arquivo sem perdê-lo",
+      "esperado": "arquivo preservado",
+      "obtido": "arquivo preservado",
+      "status": "CONFORME"
+    },
+    {
+      "id": "DD-05",
+      "requisito": "rmdir deve remover somente o nome solicitado",
+      "esperado": "a removido; b preservado",
+      "obtido": "a removido; b preservado",
+      "status": "CONFORME"
+    },
+    {
+      "id": "DD-06",
+      "requisito": "Arquivo vazio deve conter zero palavras (wc)",
+      "esperado": "Palavras: 0",
+      "obtido": "Palavras: 0",
+      "status": "CONFORME"
+    },
+    {
+      "id": "CTRL-01",
+      "requisito": "Criar pasta e navegar",
+      "esperado": "~/teste",
+      "obtido": "~/teste",
+      "status": "CONFORME"
+    },
+    {
+      "id": "CTRL-02",
+      "requisito": "Criar arquivo vazio e ler",
+      "esperado": "",
+      "obtido": "",
+      "status": "CONFORME"
+    }
+  ]
+}
