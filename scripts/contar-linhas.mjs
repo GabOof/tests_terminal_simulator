@@ -1,4 +1,4 @@
-// Conta linhas físicas dos arquivos JavaScript da aplicação
+// Conta linhas físicas dos arquivos JavaScript do projeto
 // O número inclui comentários e linhas em branco
 import { readFileSync, readdirSync } from "node:fs";
 let total = 0;

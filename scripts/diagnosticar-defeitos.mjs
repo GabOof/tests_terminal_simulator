@@ -8,7 +8,6 @@ function novoAmbiente() {
 }
 
 function arquivoComLinhas(sistema) {
-    // Pré-condição controlada: um arquivo virtual com três linhas reais.
     sistema.atual.arquivos["notas.txt"] = {
         nome: "notas.txt",
         conteudo: "a\nb\nc",
@@ -78,7 +77,7 @@ const casos = [
             return resposta.split("\n").find((linha) => linha.startsWith("Palavras: "));
         },
     },
-    // Controles positivos: ajudam a verificar se o diagnóstico está configurado.
+
     {
         id: "CTRL-01",
         requisito: "Criar pasta e navegar",
